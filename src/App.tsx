@@ -8,7 +8,8 @@ function App() {
         petName="Vaska"
         userName="Elena"
         totalPrice={200}
-        imageUrl="/images/cat-in-tree.jpg"
+        imageUrl="/images/cat-under-leaves.jpg"
+        // imageUrl="/images/cat-in-tree.jpg"
         showFreeGift={true}
       />
     </div>
