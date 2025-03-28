@@ -10,7 +10,7 @@ export default function DeliveryInfo({
   totalPrice,
 }: DeliveryInfoProps) {
   return (
-    <div className="mt-6 text-center">
+    <div className="mt-6 text-center md:text-left">
       <h2 className="text-lg font-semibold text-green-700">
         Your next delivery for {petName}
       </h2>
@@ -18,7 +18,7 @@ export default function DeliveryInfo({
         Hey {userName}! In two days' time, we'll be charging you for your next
         order for {petName}'s fresh food.
       </p>
-      <p className="font-bold mt-2">Total price: {totalPrice}</p>
+      <p className="font-bold mt-2">Total price: £{totalPrice}</p>
     </div>
   );
 }
