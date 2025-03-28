@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import NextDeliveryCard from "./components/DeliveryCard";
 
 export type DeliveryDataProps = {
