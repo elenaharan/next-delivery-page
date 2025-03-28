@@ -1,12 +1,16 @@
-import React from 'react';
+import React from "react";
+import NextDeliveryCard from "./components/DeliveryCard";
 
 function App() {
   return (
     <div className="App">
-      <h1 className="text-4xl font-bold text-center text-blue-500">
-        Tailwind is working!
-      </h1>
-      <h1>Next Delivery Page 🚚</h1>
+      <NextDeliveryCard
+        petName="Vaska"
+        userName="Elena"
+        totalPrice={200}
+        imageUrl="/images/cat-in-tree.jpg"
+        showFreeGift={true}
+      />
     </div>
   );
 }
