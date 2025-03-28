@@ -5,7 +5,7 @@ type CatAvatarProps = {
 
 export default function CatAvatar({ imageUrl, petName }: CatAvatarProps) {
   return (
-    <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 w-12 h-12 rounded-full border-2 border-white overflow-hidden">
+    <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 w-16 h-16 rounded-full overflow-hidden md:hidden">
       <img
         src={imageUrl}
         alt={petName}
