@@ -16,7 +16,7 @@ export default function DeliveryInfo({
           {message}
         </p>
         <p className="text-xs md:text-sm font-medium text-gray-600 mt-2 md:mt-4">
-          Total price: £{totalPrice}
+          Total price: £{totalPrice.toFixed(2)}
         </p>
       </div>
       <DeliveryActionsButtons />
