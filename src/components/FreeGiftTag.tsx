@@ -3,7 +3,7 @@ export default function FreeGiftTag() {
     <div
       className="
         absolute
-        bg-pink-200 text-purple-800 font-bold px-4 py-1 shadow
+        bg-pink-200 text-purple-800 font-bold px-4 py-1 border border-gray-300
         text-xs md:text-sm
         -bottom-4 md:bottom-auto
         left-1/2 md:left-auto

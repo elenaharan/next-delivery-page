@@ -5,7 +5,7 @@ export default function CatImage() {
   return (
     <>
       {/* Mobile Avatar */}
-      <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 w-16 h-16 rounded-full overflow-hidden md:hidden">
+      <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 w-16 h-16 rounded-full overflow-hidden border border-gray-300 md:hidden">
         <img
           src={imageUrl}
           alt={altText}
