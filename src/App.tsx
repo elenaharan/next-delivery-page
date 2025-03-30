@@ -13,13 +13,14 @@ function App() {
     null
   );
 
+  const userId = process.env.REACT_APP_USER_ID;
+
   useEffect(() => {
-    fetch(
-      `http://localhost:3000/comms/your-next-delivery/ff535484-6880-4653-b06e-89983ecf4ed5`
-    )
+    fetch(`http://localhost:3000/comms/your-next-delivery/${userId}`)
       .then((res) => res.json())
-      .then((data) => setDeliveryData(data));
-  }, []);
+      .then((data) => setDeliveryData(data))
+      .catch((err) => console.error("Error fetching next delivery data", err));
+  }, [userId]);
 
   return (
     <div className="App">
